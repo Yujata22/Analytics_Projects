@@ -1,31 +1,10 @@
-Twitter Sentiment Analysis
+Project : Twitter Sentiment Analysis
 
-Overview
-This repository contains the code and analysis for a Twitter Sentiment Analysis project. The data was sourced from Kaggle by making an API call. The analysis includes data preprocessing, cleaning, and exploratory data analysis (EDA) at an Uber level.
+This notebook contains code and analysis for a Twitter Sentiment Analysis project using Kaggle-sourced data, focusing on Uber-level insights. The process involves data preprocessing, including duplicate removal, aggregation, and date extraction, followed by exploratory data analysis (EDA). The EDA covers time trends, unique tweet analysis, word frequency visualization using wordclouds, sentiment analysis, URL extraction, and text similarity analysis with Jaccard distance. The provided notebook in the repository offers detailed information and step-by-step execution. The analysis offers valuable insights into tweet sentiment, temporal patterns, and textual content, supported by robust data cleaning procedures for reliable results.
 
-Data Preprocessing
-Duplicate Removal: Identified and removed duplicate records in the "id" column, which had different values for polarity.
-Aggregation: Aggregated the dataset at the "id" level to get average values for polarity.
-Date Extraction: Extracted year, month, and weekday columns from the date field for further analysis.
+Project : Customer Segmentation and Product Recommendation
 
-Data Analysis (EDA)
-Time Frame Analysis: Explored the dataset with a focus on time, analyzing trends month-wise and weekday-wise.
-Unique Tweets Analysis: Investigated unique tweets based on both months and weekdays.
-Wordcloud Summary: Conducted tweet text analysis using wordcloud to visualize word frequency across weekdays and weekends.
-Sentiment Analysis: Plotted wordcloud summaries against different polarities of sentiments.
-
-URL Analysis
-URL Extraction: Extracted URLs tagged in the tweet text column.
-Popular URLs: Investigated the most popular URLs based on the tweets they were tagged into.
-
-Text Similarity Analysis
-Jaccard Distance: Conducted tweet text similarity analysis using Jaccard distance.
-
-Notebook Reference
-For detailed information and step-by-step execution, please refer to the notebook in this repository.
-
-Note
-The analysis presented here provides insights into the sentiment of tweets, their temporal patterns, and textual content. The data cleaning and preprocessing steps ensure the reliability of the analysis results. For detailed findings and visualizations, please refer to the notebook.
+This notebook encompasses an in-depth exploration of Amazon product reviews utilizing the Kaggle amazon-sales-dataset. The analysis unfolds in a structured manner, beginning with initial data cleaning and subsequent exploratory data analysis (EDA). K-means clustering is then employed, followed by a meticulous fine-tuning process through hyperparameter optimization. The culmination involves the identification of three distinct customer segments. The analysis concludes with a product recommendation system utilizing Cosine similarity, thereby offering a comprehensive understanding of customer preferences and behavior within the Amazon sales dataset.
 
 Feel free to explore the code and adapt it for your own projects or analyses. If you have any questions or suggestions, please create an issue or reach out.
 
